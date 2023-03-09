@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>ASTRO Moonbin & Sanha on March 26,2023</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Ticket Net</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <h1 class="display-4">Tickets Available!</h1>
+    <p class="lead">This site is for selling of tickets for Diffusion Astro Moonbin and Sanha Fan Con Tour in New Frontier Theatre Manila Date: March 26,2023.</p>
+    <hr class="my-4">
+    <p>Selling of tickets will start on March 10,2023.</p>
+    </div>
+
+<center>✡️
+Countdown to Ticket Selling</center>
+<table>
+  <tr>
+    <th>Days</th>
+    <th>Hours</th>
+    <th>Minutes</th>
+    <th>Seconds</th>
+  </tr>
+  <tr>
+    <td id="days"></td>
+    <td id="hours"></td>
+    <td id="minutes"></td>
+    <td id="seconds"></td>
+  </tr>
+</table>
+<script>
+var countDownDate = new Date("March 10, 2023 19:00:00").getTime();
+
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minutes").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("days").innerHTML = "EXPIRED";
+    document.getElementById("hours").innerHTML = "EXPIRED";
+    document.getElementById("minutes").innerHTML = "EXPIRED";
+    document.getElementById("seconds").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+ 
+
+<div class="container"> 
+    <div class="card-deck mb-3 text-center"> <div class="card mb-4 box-shadow">
+    <div class="card-header"> <h4 class="my-0 font-weight-normal">SVIP</h4> </div> <div class="card-body"> 
+    <h1 class="card-title pricing-card-title">Php 10,500 <small class="text-muted">Benefit</small></h1> <ul class="list-unstyled mt-3 mb-4"> 
+    <li>Group Photo 100 (Raffle)</li> 
+    <li>Meet & Greet</li> 
+    <li>Unit Banner</li>
+    <li>Pre-Show Sound Check</li> 
+    <li>Unit Photocard</li> 
+    <li>Individul Photocard</li></ul> 
+    <button type="button" class="btn btn-lg btn-block btn-primary">Buy Now</button> 
+    </div>
+    </div>
+    <div class="card mb-4 box-shadow"> 
+    <div class="card-header"> 
+    <h4 class="my-0 font-weight-normal">VIP</h4>
+    </div> 
+    <div class="card-body"> 
+    <h1 class="card-title pricing-card-title">Php 8,500
+    <small class="text-muted">Benefit</small></h1>
+    <ul class="list-unstyled mt-3 mb-4"> 
+    <li>Unit Banner</li>
+    <li>Pre-Show Sound Check</li> 
+    <li>Unit Photocard</li> 
+    <li>Individual Photocard</li> 
+    <li></li> 
+    </ul> <button type="button" class="btn btn-lg btn-block btn-primary">Buy Now</button>
+     </div>
+     </div> 
+    <div class="card mb-4 box-shadow"> 
+    <div class="card-header"> 
+    <h4 class="my-0 font-weight-normal">Orchestra</h4> </div> <div class="card-body">
+     <h1 class="card-title pricing-card-title">Php 6,500 <small class="text-muted">Benefit</small></h1>
+    <ul class="list-unstyled mt-3 mb-4"> 
+    <li>Pre-Show Sound Check </li>
+    <li>Unit Photocard</li>
+    <li>Individual Photocard</li> </ul> <button type="button" class="btn btn-lg btn-block btn-primary">Buy Now</button> </div> </div> </div>
+    
+<div class="container"> 
+    <div class="card-deck mb-3 text-center"> <div class="card mb-4 box-shadow">
+    <div class="card-header"> <h4 class="my-0 font-weight-normal">Loge</h4> </div> <div class="card-body"> 
+    <h1 class="card-title pricing-card-title">Php 4,500 <small class="text-muted">Benefit</small></h1> <ul class="list-unstyled mt-3 mb-4"> 
+    <li>Unit Photocard</li> 
+    <li>Individual Photocard</li></ul> 
+    <button type="button" class="btn btn-lg btn-block btn-primary">Buy Now</button> 
+    </div>
+    </div>
+    <div class="card mb-4 box-shadow"> 
+    <div class="card-header"> 
+    <h4 class="my-0 font-weight-normal">Balcony</h4>
+    </div> 
+    <div class="card-body"> 
+    <h1 class="card-title pricing-card-title">Php 3,000
+    <small class="text-muted">Benefit</small></h1>
+    <ul class="list-unstyled mt-3 mb-4"> 
+    <li>Individual Photocard</li>  
+    </ul> <button type="button" class="btn btn-lg btn-block btn-primary">Buy Now</button>
+     </div>
+     </div> 
+<p>*PRICES INDICATED ARE ALL EXCLUSIVE OF TICKET CHARGES*</p>
+
+<a class="btn btn-primary btn-lg" href="#" role="button">fantagio group</a
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Information</h2>
+        <p>Moonbin & Sanha is the first official sub-unit of South Korean boy band Astro. Formed by Fantagio in 2020, the group is composed of two Astro members: Moon Bin & Yoon San-ha. Their debut extended play, 1stEP In-Out was released on September 14, 2020 with the title track "Bad Idea". And they came back with 2ndEP Refuge released on March 15, 2022 with the title track "Who". This year they came back with 3rdEP Insence released on January 4,2023 with the title track "Madness".</p>
+      </div>
+      <div class="col-md-4">
+        <h2>Information</h2>
+        <p>Astro is a South Korean boy band formed by Fantagio that debuted in 2016. The group is composed of five members: MJ, Jinjin, Cha Eun-woo, Moon Bin, and Yoon San-ha. Originally a six-piece group, Rocky departed the group on February 28,2023.</p>
+<footer>
+     <div class="container">
+     <div class="row"> 
+     <div class="col-md-12"> <p class="text-center">All rights reserved &copy; My Ticket Net 2023</p> 
+     </div>
+     </div> 
+     </div>
+     <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+</html>
